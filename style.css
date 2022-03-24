@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    position: relative;
+}
+.nike_inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1000;
+    position: absolute;
+    top: 180px;
+    transition: .5s ease;
+    left: -630px;
+    padding: 15px;
+}
+.ok{
+    transform: translate(-10px,30px);
+}
+.black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 800;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    display: none;
+}
+.infom{
+    font-size: 24px;
+}
+.no{
+    transform: translate(10px, 10px);
+    margin-right: 10px;
+}
+.yes{
+    transform: translate(10px, 10px);
+    margin-left: 10px;
+}
+.modal_wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1000;
+    position: absolute;
+    top: -580px;
+    transition: .5s ease;
+    left: 430px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    align-items: center;
+    transform: translateX(80px);
+}
+.left{
+    display: flex;
+}
+.href_1{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 55px;
+    font-weight: 200;
+    color: rgb(77, 77, 77);   
+}
+.left{
+    align-items: center;
+}
+.href{
+    margin-left: 50px;
+}
+.img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.img:nth-child(2){
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.menu{
+    transform: translateX(-60px);
+}
+.yellow{
+    cursor: pointer;
+    background-color: #FFC700;
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    height: 609px;
+    display: flex;
+}
+.right_side{
+    width: 40%;
+    height: 100%;
+    background-color: #FFFAD0;
+}
+.left_side{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.img_background{
+    width: 100%;
+    height: 100%;
+}
+.circle{
+    width: 500px;
+    border-radius: 1000px;
+    position: absolute;
+    z-index: 100;
+    transform: translate(-620px, 70px);
+}
+.text{
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    transform: translate(-500px, 10px);
+    z-index: 100;
+}
+.sneekers{
+    position: absolute;
+    z-index: 100;
+    transform: translate(-700px, 20px);
+    width: 650px; 
+    /* animation: transforming 1s infinite; */
+}
+/* @keyframes transforming {
+    from {
+      transform: translateY(-30px);
+    }
+    to {
+      transform: translateY(30px);
+    }
+  } */
+.mens {
+    margin-left: 120px;
+    margin-top: 60px;
+    color: #00A79D;
+}
+.line{
+    width: 90px;
+    transform: translateX(120px);
+    border: 1px solid #00A79D;
+
+}
+h1 {
+    transform: translate(-419px, 186px);
+    font-size: 78px;
+    position: absolute;
+    z-index: 200;
+    font-weight: 900;
+}
+.h1 {
+    transform: translate(-419px, 266px);
+    font-size: 78px;
+    position: absolute;
+    z-index: 200;
+    font-weight: 900;
+}
+h3 {
+    transform: translate(121px, 352px);
+    font-size: 45px;
+    color: #FF9A00;
+}
+button {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    transform: translate(121px, 426px);
+    border: none;
+    border-radius: 0px;
+    color: white;
+    background: linear-gradient(90deg, #0047FF, #EC00E2)
+}
+.screen1{
+    width: 100%;
+    height: 609px;
+    display: flex;
+    position: relative;
+}
+.left_side_2{
+    height: 100%;
+    width: 40%;
+}
+.right_side_2{
+    height: 100%;
+    width: 60%;
+}
+.snekers{
+    width: 700px;
+    position: absolute;
+}
+.right_side_2{
+    padding: 70px;
+}
+.div1{
+    width: 500px;
+}
+.big_rifth {
+    transform: translate(0px, 10px);
+}
+.name_color{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+p {
+    width: 400px;
+    color: grey;
+    font-size: 12px;
+    margin-top: 235px;
+    margin-bottom: 46px;
+}
+.imgar{
+    width: 20px;
+    margin-left: 10px;
+}
+.line_2 {
+    width: 400px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    transform: translateY(20px);
+    margin-bottom: 20px;
+}
+.size{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;    
+}
+.sizes{
+    cursor: pointer;
+    margin-left: 15px;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+    margin-top: 15px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    transform: translate(30px, 30px);
+    padding-left: 15px;
+}
+.button{
+    display: flex;
+}
+.vector{
+    margin-left: 20px;
+}
+.screen2{
+    width: 90%;
+    height: 609px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.snekrs_price{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(223px);
+}
+.circle_sneek{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #ff8ff9;
+    position: relative;
+}
+.circle_sneek1{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #e7e7e7;
+    position: relative;
+}
+.circle_sneek2{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #c0c0c0;
+    position: relative;
+}
+.circle_sneek3{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #cacaca;
+    position: relative;
+}
+.circle_sneek4{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #dad8d8;
+    position: relative;
+}
+.img_price {
+    position: absolute;
+    z-index: 100;
+    width: 186px;
+    transform: translate(-43px, -27px);
+}
+.title_img{
+    transform: translate(513px, 51px);
+}
+.product {
+    transform: translate(313px, 67px);
+}
+.ellipse_box {
+    transform: translate(31px, 17px);
+}
+.nike_shoes {
+    font-size: 20px;
+    transform: translate(-5px, 42px);
+    color: black;
+}
+.price_nike {
+    font-size: 25px;
+    transform: translate(42px, 62px);
+}
+.ractengle_2 {
+    transform: translate(4px, 105px);
+    cursor: pointer;
+}
+.ractengle_text {
+    cursor: pointer;
+    transform: translate(-101px, 93px);
+}
+.screen3{
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+.sneekers_nike{
+    height: 100%;
+    width: 50%;
+}
+.center {
+    transform: translate(462px, 135px);
+    width: 400px;
+    height: 200px;
+    background-color: #e7e7e7;
+    position: absolute;
+    z-index: 100;
+}
+.button_4 {
+    transform: translate(136px, 95px);
+    font-size: 12px;
+}
+.crater {
+    transform: translate(73px, 19px);
+    font-size: 31px;
+}
+footer{
+    background-color: #02083C;
+    width: 100%;
+    height: 400px;
+}
+.nike_text {
+    transform: translate(76px, 121px);
+    color: white;
+    width: 320px;
+}
+.logo_nike {
+    transform: translate(76px, 102px);
+    width: 100px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+.big_box{
+    width: 94%;
+    margin: 0 auto;
+}
+input:nth-of-type(1){
+    color: white;
+}
+input {
+    width: 268px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #02083C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    transform: translate(81px, 226px);
+}
+input::placeholder{
+    color: white;
+    opacity: .5;
+}
+.gets{
+    opacity: .7;
+    color: white;
+    margin-bottom: 27px;
+}
+h4{
+    color: white;
+    margin-bottom: 25px;
+}
+.boxes2{
+    display: flex;
+}
+.box1 {
+    transform: translate(492px, 21px);
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    margin-left: 45px;
+}
+.boxes3 {
+    transform: translate(1005px, -217px);
+    width: 301px;
+    display: flex;
+}
+.networks{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.lin3_3{
+    width: 94%;
+    margin: 0  auto;
+    border: none;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.class {
+    transform: translate(447px, -205px);
+}
